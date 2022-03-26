@@ -11,5 +11,8 @@ export class HomepageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+// clearing localstrorage for guarding
+  logout(){
+    localStorage.clear()
+  }
 }

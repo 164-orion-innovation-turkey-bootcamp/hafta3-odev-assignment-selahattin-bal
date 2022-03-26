@@ -30,6 +30,7 @@ public loginForm!: FormGroup
      if(user){
        alert("Login successful")
        this.loginForm.reset()
+       localStorage.setItem('user', JSON.stringify(user));
        // if login succesful routing to homepage
        this.router.navigate(["homepage"])
      }

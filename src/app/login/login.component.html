@@ -22,13 +22,13 @@
                         <div class="form-group">
                           <label for="exampleInputEmail1">Email address</label>
                           <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                          <span class="text-danger" *ngIf="loginForm.controls['email'].dirty&& loginForm.hasError('required','email')" >Email is required</span><br>
+                          <div class="text-danger" *ngIf="loginForm.controls['email'].dirty&& loginForm.hasError('required','email')" >Email is required</div>
                         </div>
                         <!-- Password -->
                         <div class="form-group">
                           <label for="exampleInputPassword1">Password</label>
                           <input formControlName="password"  type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                          <span class="text-danger" *ngIf="loginForm.controls['password'].dirty&& loginForm.hasError('required','password')" >Password is required</span><br>
+                          <div class="text-danger" *ngIf="loginForm.controls['password'].dirty&& loginForm.hasError('required','password')" >Password is required</div>
                         </div>
                         <!-- Login button -->
                         <button type="submit" [disabled]="!loginForm.valid" class="btn btn-primary mx-2">Login</button>
