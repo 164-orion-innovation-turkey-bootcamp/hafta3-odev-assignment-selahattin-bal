@@ -12,6 +12,6 @@ Version 2 (27.03.2022)
 -3 type of validation used(pattern with regex, custom abstract control validator, custom external validator
 
 ![alt text](src/assets/Screenshot_1.jpg)
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
+![alt text](src/assets/Screenshot_2.jpg)
+![alt text](src/assets/Screenshot_3.jpg)
+![alt text](src/assets/Screenshot_4.jpg)
